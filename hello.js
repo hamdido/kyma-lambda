@@ -4,8 +4,8 @@ const path = require('path')
 
 function sayHi(){
     console.log(path.resolve('.'))
-    console.log(path.resolve('./data/test.json'))
-    let data =  fs.readFileSync('./data/test.json')
+    console.log(path.resolve('./test.json'))
+    let data =  fs.readFileSync('./test.json')
     console.log("hello!", JSON.parse(data))
 }
 
