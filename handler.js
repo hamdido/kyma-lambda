@@ -1,6 +1,6 @@
-const sayHi = require('./hello')
+const hello = require('./hello')
 module.exports = {
     main: async function (event) {
-        sayHi()
+        hello()
     }
 }

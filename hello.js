@@ -2,4 +2,4 @@ function sayHi(){
     console.log("hello")
 }
 
-exports.default = sayHi
+module.exports = sayHi
