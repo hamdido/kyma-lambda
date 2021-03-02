@@ -1,0 +1,6 @@
+{
+    "name": "dcp-lambda-cart-decorator",
+    "version": "0.2.5",
+    "description": "",
+    "main": "lambda.js"
+}
