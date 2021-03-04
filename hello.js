@@ -12,7 +12,7 @@ function sayHi(){
     // console.log(path.resolve('./test.js'))
     let data =  fs.readFileSync(`${pwd}/data/test.json`)
     let result = JSON.parse(data)
-    console.log("hello!", result)
+    console.log("hello!!!", result)
     return result
 }
 
