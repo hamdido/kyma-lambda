@@ -1,6 +1,4 @@
-const hello = require('./hello')
+const lambda = require('./lambda.js')
 module.exports = {
-    main: function (event) {
-        hello()
-    }
+    main: lambda.main
 }
